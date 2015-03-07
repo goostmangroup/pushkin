@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="Windows-1251">
+  <title>Чатбот</title>
+  <meta name="description" content="Чатбот">
+  <meta name="author" content="Владимир Веселов">
+  <link rel="stylesheet" type="text/css" href="css/styles.css" media="all" />
+  <script src="chatbot/chatbot.js"></script>
+  <script src="chatbot/p.js"></script>
+</head>
+<body>
+    <div class='im'>
+    <img alt="bot" src="chatbot/images/pushkin.jpg">
+    </div>
+    <div id='answer' class='phrase'> 
+      Пушкин:
+    </div>
+    <div id='question'>
+       <input type="text" placeholder="Вопрос ..." onkeydown="ask(this)" name="input">
+    </div>
+</body>
+</html>
