@@ -1,0 +1,58 @@
+body {
+  width: 500px;
+  margin: 50px auto 50px auto;
+}
+
+input[type="text"] {
+  display: block;
+  margin: 0;
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 24px;
+  appearance: none;
+  box-shadow: none;
+  border-radius: 10px;
+  text-align: left;
+  background: grey;
+  color: #FFFAFC;
+  margin: 55px;
+  padding: 21px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+}
+
+.phrase {
+  background: grey;
+  border-radius: 10px;
+  font-family: "Tahoma", "Geneva", sans-serif;
+  font-size: 24px;
+  color: #FFFAFC;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-align: left;
+  letter-spacing: 0px;
+  line-height: 20px;
+  width: 100%;
+  margin: 55px;
+  padding: 21px;
+}
+
+.im {
+  text-align: center;
+}
+
+img{
+  width: 50%;
+  margin: 55px;
+  padding: 21px;
+}
+
+.block {
+  box-shadow: 0 0 23px rgba(0, 0, 0, 0.30);
+  margin: 55px;
+  padding: 21px;
+  width: 100%;
+}
